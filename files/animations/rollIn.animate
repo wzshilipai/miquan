@@ -1,0 +1,22 @@
+/* 
+  Name:			Roll In
+  Type:			Entrance
+  Description:	Roll In Effect
+  Version:		2.0	
+  locale:		{"zh-Hans":"卷入", "en-US":"Roll In"}
+ */
+@keyframes rollIn {
+  0% {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.rollIn {
+  animation-name: rollIn;
+}

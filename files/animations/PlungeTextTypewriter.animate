@@ -1,0 +1,16 @@
+/* 
+  Name:			PlungeTextTypewriter
+  Type:			Entrance
+  Description:	Plunge Text Typewriter
+  Version:		2.0	
+  locale:		{"zh-Hans":"文字跳入", "en-US":"Plunge Text Typewriter"}
+  Class:        PlungeTextTypewriter
+  LimitType:    MText
+ */
+ 
+@keyframes plungeTextTypewriter {
+	
+}
+.plungeTextTypewriter{
+	animation-duration: 5s;
+}

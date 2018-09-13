@@ -1,0 +1,16 @@
+/* 
+  Name:			NumberRiseTextEffect
+  Type:			Entrance
+  Description:	Number Rise Text Effect
+  Version:		2.0	
+  locale:		{"zh-Hans":"数字上涨", "en-US":"Number Rise"}
+  Class:        NumberRiseTextEffect
+  LimitType:    MText
+ */
+ 
+@keyframes numberRiseTextEffect {
+	
+}
+.numberRiseTextEffect{
+	animation-duration: 2s;
+}

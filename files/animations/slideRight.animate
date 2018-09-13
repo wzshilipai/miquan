@@ -1,0 +1,28 @@
+/* 
+  Name:			Slide Right
+  Type:			Entrance
+  Description:	Slide Right Effect
+  Version:		2.0	
+  locale:		{"zh-Hans":"向右滑动", "en-US":"Slide Right"}
+ */
+ 
+@keyframes slideRight {
+	0% {
+		transform: translateX(-150%);
+	}
+	50%{
+		transform: translateX(8%);
+	}
+	65%{
+		transform: translateX(-4%);
+	}
+	80%{
+		transform: translateX(4%);
+	}
+	95%{
+		transform: translateX(-2%);
+	}			
+	100% {
+		transform: translateX(0%);
+	}	
+}
